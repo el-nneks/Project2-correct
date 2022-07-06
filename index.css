@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* styling the nav */
+body {
+  line-height: 1.5;
+  background-color: rgba(32, 15, 15, 0.8);
+}
+nav {
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  position: relative;
+  top: 0;
+  z-index: 5;
+  width: 100%;
+}
+
+nav h1 {
+  color: orangered;
+  font-size: 2.8rem;
+  font-family: "Dancing Script", cursive;
+}
+nav a {
+  color: beige;
+  text-decoration: none;
+  font-size: 1rem;
+  margin-right: 1.2rem;
+  /* font-weight: bold; */
+}
+nav a:hover {
+  color: blueviolet;
+  border-bottom: 2px solid blueviolet;
+}
+.example {
+  display: inline;
+}
+
+div form.example input[type="text"] {
+  padding: 8px;
+  font-size: 10px;
+  border: 2px solid orangered;
+  float: left;
+  width: 65%;
+  background-color: inherit;
+}
+
+div form.example button {
+  float: left;
+  width: 70px;
+  padding: 6px;
+  background-color: orangered;
+  color: beige;
+  font-size: 15px;
+  border: 1px solid orangered;
+  border-left: none;
+  cursor: pointer;
+}
+/* styling the header */
+header {
+  /* border: 2px solid red; */
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 40px;
+  flex-direction: row;
+  position: relative;
+  margin-left: 35px;
+}
+header h2 {
+  color: beige;
+  font-size: 2.5rem;
+}
+header h1 {
+  color: orangered;
+  font-size: 3rem;
+}
+header p {
+  color: beige;
+  font-size: 1rem;
+}
+div button {
+  width: 15%;
+  padding: 6px;
+  background-color: orangered;
+  color: black;
+  border-radius: 8px;
+  font-size: 15px;
+  border: 1px solid orangered;
+  border-left: none;
+  cursor: pointer;
+}
+
+
+/* styling the cards */
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 350px;
+  height: auto;
+  padding: 10px;
+  /* background: #23463f;  
+        border-radius: 15px ;   */
+  box-sizing: border-box;
+}
+.login {
+  position: relative;
+  width: 100%;
+  padding: 30px;
+  margin: 0 0 10px 0;
+  box-sizing: border-box;
+  border-radius: 3px;
+  background: black;
+  overflow: hidden;
+  /* box-shadow: 0 2px 2px 0 red; */
+}
+.login > h2 {
+  position: relative;
+  color: orangered;
+  background-color: beige;
+  border-radius: 10px;
+}
+.login-form {
+  padding: 10px;
+  box-sizing: border-box;
+}
+.login-input {
+  position: relative;
+  width: 100%;
+  padding: 10px 5px;
+  margin: 0 0 25px 0;
+  border: none;
+  border-bottom: 2px solid orangered;
+  box-sizing: border-box;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  background-color: inherit;
+  animation: input_opacity 0.8s cubic-bezier(0.55, 0, 0.1, 1);
+  transition: border-bottom 0.2s cubic-bezier(0.55, 0, 0.1, 1);
+}
+.login-input:focus {
+  outline: none;
+  border-bottom: 2px solid orangered;
+  background-color: inherit;
+  text-transform: capitalize;
+  color: beige;
+}
+/* .login-enter {
+    color: white;
+} */
+#log {
+  cursor: pointer;
+  width: 250px;
+  height: 30px;
+  border: 1px solid orangered;
+  border-radius: 10px;
+  /* padding-right: 10px; */
+  color: black;
+  background-color: orangered;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.login-container p {
+  align-self: flex-start;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+  color: beige;
+}
+
+span {
+  color: orangered;
+  font-size: 17px;
+}
+.login-container a {
+  color: beige;
+}
